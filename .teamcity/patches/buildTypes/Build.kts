@@ -22,7 +22,7 @@ changeBuildType(RelativeId("Build")) {
         }
     }
     steps {
-        insert(1) {
+        insert(0) {
             script {
                 name = "node preinstall"
                 scriptContent = "npm install"
